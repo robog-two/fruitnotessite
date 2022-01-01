@@ -1,0 +1,92 @@
+.launchershot
+  background-size: 75%
+  background-repeat: no-repeat
+  background-position-x: center
+  background-position-y: bottom
+  transition: background-position-y 0.01s
+
+@keyframes moveout
+  0%
+    transform: translateY(0vh)
+  100%
+    transform: translateY(-100vh)
+
+#titlepostscroll
+  animation: moveout 1s ease-in 0s 1 forwards
+
+.footer
+  width: 100%
+  padding-top: 1%
+  padding-bottom: 5%
+  background-color: #262325
+
+.socials
+  display: flex
+  justify-content: center
+
+.socials svg
+  display: inline
+  width: 100px
+  height: 100px
+  margin-left: 10px
+  margin-right: 10px
+  fill: #d1cfd0
+
+.copyable
+  text-decoration: none
+  font-weight: 400
+  font-size: 2.5rem
+  background-color: #191621
+  color: #fff
+  padding: 3px
+  border-radius: 3px
+  font-family: Courier New, Courier, monospace
+  display: inline-block
+  transform: translateY(-13px)
+
+.bedrocklinks
+  margin-top: 20px
+  font-size: 1.5rem
+
+.bedrocklinks a
+  color: aliceblue
+
+.bedrocklinks a:hover
+  color: #2fb9f0
+
+.downloadlink
+  padding: 5px
+  font-size: 3rem !important
+  color: #010203
+  text-decoration: none
+  background-color: #fffd44
+  border-bottom: 3px solid #aaffcc
+
+#downloadcontainer
+  font-size: 4rem !important
+  color: white
+  width: 100%
+  margin-bottom: 150px
+
+#launchershot
+  display: flex
+  flex-direction: column-reverse
+  text-align: center
+
+.ipspan
+  background-color: #fffd44
+  border-bottom: 3px solid #aaffcc
+  color: #010203
+  padding: 5px
+
+.outline
+  filter: drop-shadow(-1px -1px black) drop-shadow(-1px 1px black) drop-shadow(1px -1px black) drop-shadow(1px 1px black)
+
+#carousel
+  background-color: #010203
+  background-size: cover
+  background-position: center
+  -webkit-transition: background 1s
+  -moz-transition: background 1s
+  -o-transition: background 1s
+  transition: background 1s

@@ -1,0 +1,87 @@
+body
+  margin: 0px
+  overflow-x: hidden
+
+.pagesection
+  height: 100vh
+  width: 100vw
+  overflow-y: hidden
+
+.actionshot
+  background-size: 200%
+  background-repeat: no-repeat
+  background-position-x: center
+  background-position-y: bottom
+  width: 100%
+  height: 100%
+
+.shadow
+  filter: drop-shadow(-20px 20px black)
+
+@keyframes moveup
+  0%
+    transform: translateY(50vh)
+  100%
+    transform: translateY(0vh)
+
+.centertitle
+  color: #fffd44
+  text-align: center
+  height: 100%
+  display: flex
+  flex-direction: column-reverse
+  transform: translateY(100vh)
+  animation: moveup 1s ease-out 0s 1 forwards
+
+.robotoslab
+  font-family: 'Roboto Slab', sans-serif
+  font-size: 10rem
+
+.ubuntuitalic
+  font-family: 'Ubuntu Italic', cursive
+  font-size: 3rem
+
+.reflectedfont
+  font-family: 'Raider Crusader Straight', serif
+  font-size: 10rem
+  color: #fffd44
+
+@media screen and (min-width: 1024px)
+  .actionshot
+    background-size: 75% !important
+
+  .launchershot
+    background-size: 50% !important
+    background-position-x: 30px !important
+    margin-left: auto !important
+    margin-right: auto !important
+
+  .socials svg
+    width: 30px !important
+    height: 30px !important
+
+  #launchershot
+    flex-direction: row-reverse !important
+
+  #downloadcontainer
+    width: 40% !important
+    padding-top: 5% !important
+    padding-right: 50px !important
+    height: 100% !important
+    margin-bottom: 0px !important
+    text-align: left !important
+
+@media screen and (max-width: 1025px)
+  *
+    font-size-adjust: 50%
+
+  .centertitle
+    display: flex !important
+    flex-direction: column-reverse !important
+    justify-content: center !important
+
+  .mobiledarkenlight
+    background-color: rgba(0, 0, 0, 0.04) !important
+
+  .mobiledarken
+    background-color: rgba(0, 0, 0, 0.3) !important
