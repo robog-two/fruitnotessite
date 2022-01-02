@@ -51,6 +51,4 @@ happier, for years to come.
 The most important part of this manifesto is that Fruit Notes
 stays this way forever, which is why a copy of it will be
 provided to every customer with one simple message: If we don't
-hold through, stop giving us money.
-
-It would, quite literally, mean the world to us.
+hold through, stop giving us money. It would, quite literally, mean the world to us.
