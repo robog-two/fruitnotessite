@@ -2,7 +2,7 @@
 
 ![The stamp on all FruitNotes paper products proclaiming that they are recyclable](../assets/images/fruitnotes_stamp_wide.png)
 
-Please recycle all items with the above stamp. This includes paper refills, all shipping mailers, packing slips, and all paper extras included in the package. These are all made with eco friendly or biodegradeable ink, so they don't make extra waste when they are recycled!
+Please recycle all items with the above stamp. You can also recycle paper refills, all shipping mailers, packing slips, and all paper extras included in the package. These are all made with eco friendly or biodegradeable ink, so they don't make extra waste when they are recycled!
 
 ## Packing Slips
 
